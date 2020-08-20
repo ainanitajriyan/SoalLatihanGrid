@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:rowCount="3"
+    android:orientation="horizontal"
+    tools:context=".GridLayoutActivity">
+
+    <TextView
+        android:id="@+id/a"
+        android:gravity="left|top"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="5pt"
+        android:textColor="@android:color/black"
+        android:text="A"
+        android:textSize="16pt"/>
+    <TextView
+        android:id="@+id/b"
+        android:gravity="left|top"
+        android:layout_marginLeft="15pt"
+        android:layout_marginTop="5pt"
+        android:textColor="@android:color/black"
+        android:text="B"
+        android:textSize="16pt"/>
+    <TextView
+        android:id="@+id/c"
+        android:gravity="left|top"
+        android:layout_marginLeft="15pt"
+        android:layout_marginTop="5pt"
+        android:textColor="@android:color/black"
+        android:text="C"
+        android:textSize="16pt"/>
+    <TextView
+        android:id="@+id/d"
+        android:gravity="left|top"
+        android:layout_marginLeft="15pt"
+        android:layout_marginTop="5pt"
+        android:textColor="@android:color/black"
+        android:text="D"
+        android:textSize="16pt"/>
+    <TextView
+        android:id="@+id/e"
+        android:gravity="left|top"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="5pt"
+        android:textColor="@android:color/black"
+        android:text="E"
+        android:textSize="16pt"/>
+
+    <TextView
+        android:id="@+id/f"
+        android:gravity="left|top"
+        android:layout_marginLeft="15pt"
+        android:layout_marginTop="5pt"
+        android:textColor="@android:color/black"
+        android:text="F"
+        android:textSize="16pt"/>
+
+    <TextView
+        android:id="@+id/g"
+        android:gravity="left|top"
+        android:layout_marginLeft="15pt"
+        android:layout_marginTop="5pt"
+        android:textColor="@android:color/black"
+        android:text="G"
+        android:textSize="16pt"/>
+
+    <TextView
+        android:id="@+id/h"
+        android:gravity="left|top"
+        android:layout_marginLeft="15pt"
+        android:layout_marginTop="5pt"
+        android:textColor="@android:color/black"
+        android:text="H"
+        android:textSize="16pt"/>
+
+    <TextView
+        android:id="@+id/i"
+        android:gravity="left|top"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="5pt"
+        android:textColor="@android:color/black"
+        android:text="I"
+        android:textSize="16pt"/>
+
+    <TextView
+        android:id="@+id/j"
+        android:gravity="left|top"
+        android:layout_marginLeft="15pt"
+        android:layout_marginTop="5pt"
+        android:textColor="@android:color/black"
+        android:text="J"
+        android:textSize="16pt"/>
+
+    <TextView
+        android:id="@+id/k"
+        android:gravity="left|top"
+        android:layout_marginLeft="15pt"
+        android:layout_marginTop="5pt"
+        android:textColor="@android:color/black"
+        android:text="K"
+        android:textSize="16pt"/>
+
+    <TextView
+        android:id="@+id/l"
+        android:gravity="left|top"
+        android:layout_marginLeft="15pt"
+        android:layout_marginTop="5pt"
+        android:textColor="@android:color/black"
+        android:text="L"
+        android:textSize="16pt"/>
+
+</GridLayout>
